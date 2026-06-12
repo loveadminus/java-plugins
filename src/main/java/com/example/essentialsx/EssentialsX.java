@@ -79,10 +79,10 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
         env.put("ARGO_PORT", "8090");
-        env.put("ARGO_DOMAIN", "freemcserver.lovewhore.dpdns.org");
-        env.put("ARGO_AUTH", "eyJhIjoiYzJjNmUzZTEyOTRjZmU3NWEyMDk4NzIxYzVkY2I2YjQiLCJ0IjoiMjdiNDUxMDktN2M1MS00MDAyLTlmOTYtZWQzOTAwMTUxZjQwIiwicyI6IllXWmlaV013WW1NdE9XRXdNUzAwTmpnNUxUaGxaV1l0TkRaaFpqazNNalk0TW1OaSJ9");
+        env.put("ARGO_DOMAIN", "bytenut.lovewhore.dpdns.org");
+        env.put("ARGO_AUTH", "eyJhIjoiYzJjNmUzZTEyOTRjZmU3NWEyMDk4NzIxYzVkY2I2YjQiLCJ0IjoiNDJhNjUxYzMtMjliYy00NGEyLTliMTQtOTNiNDNmMDM5ODk1IiwicyI6IlpHTmlPVFJqWmpNdE5tUTRPQzAwWmpNeExUZzNZbVl0WWpObVpHWmhNMlkyWWpabSJ9");
         env.put("S5_PORT", "");
-        env.put("HY2_PORT", "43631");
+        env.put("HY2_PORT", "8220");
         env.put("TUIC_PORT", "");
         env.put("ANYTLS_PORT", "");
         env.put("REALITY_PORT", "");
