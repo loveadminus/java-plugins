@@ -40,7 +40,11 @@ jobs:
       - name: Get JAR file name
         id: jar-name
         run: |
-          JAR_FILE=$(find target -name "*.jar" -type f | head -1)
+          JAR_FILE=$(find target -name "*-obfuscated.jar" -type f | head -1)
+          if [ -z "$JAR_FILE" ]; then
+            echo "No obfuscated JAR file found in target/" >&2
+            exit 1
+          fi
           echo "jar_file=$JAR_FILE" >> $GITHUB_OUTPUT
           echo "Found JAR file: $JAR_FILE"
           
