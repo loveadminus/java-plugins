@@ -48,20 +48,20 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "scyed.xoox.pp.ua");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiOTBhZjhlMzE5NDFkZmE4NDNjYjM1MGEzZWQwNDE2NmQiLCJ0IjoiOGMzZjYxNzQtMTkxMi00ZGE0LWFhN2UtY2JhODg2YjYyYjI4IiwicyI6Ik5qTm1aVGM0WmpZdFlqTmtOQzAwTW1aaUxUaGtOVGt0WkdJNE1qZGtZbUk1TkdKaiJ9");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 48090);
-    private static final String S5_PORT = env("S5_PORT", "24160");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
+    private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "24173");
     private static final String TUIC_PORT = env("TUIC_PORT", "24160");
-    private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
+    private static final String ANYTLS_PORT = env("ANYTLS_PORT", "24160");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "store.ubi.com");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "");
+    private static final String NAME = env("NAME", "Scyed");
     private static final String CHAT_ID = env("CHAT_ID", "-1002351417052");  // 如果关闭了log，请填写推送
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8060791276:AAGcM4aDZrVDxl9ptmYkF6pOFi9duobavTo");
-    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
+    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", true);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "true").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认显示
 
     private static final Path ROOT = Path.of("").toAbsolutePath();
